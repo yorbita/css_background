@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica,
+  }
+  
+  .desafio05__hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.249), rgba(168, 9, 115, 0.235)), url("4k-space-wallpaper-preview-1.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .desafio05__hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .desafio05__hero-text--em{
+ color:rgb(239, 102, 193); font-style: oblique; background-color: black;
+  }
+  
+.desafio05__hero-text--strong{
+    color:rgb(255, 255, 255); font-style: italic; background-color: deeppink;
+}
+
+  .desafio05__button {
+    border: none;
+    border-radius: 10px;
+    outline: 10px;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
